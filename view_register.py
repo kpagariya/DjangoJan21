@@ -1,3 +1,9 @@
+from django.shortcuts import render,redirect
+
+from django.http import HttpResponse
+from django.contrib import messages,auth
+from django.contrib.auth.models import User
+
 def registermenu(request):
     #return HttpResponse('<h1>Hello, I am learning Django!</h1>')
     # Logic to register the User
